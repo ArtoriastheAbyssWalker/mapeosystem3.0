@@ -1,0 +1,33 @@
+textarea {
+	resize: none;
+}
+.paratodo{
+    font-family: 'Open Sans', sans-serif;
+    color:#6a6c6f;
+    text-transform: uppercase;
+}
+.tamaño10px{
+    font-size: 10px;
+}
+.iconos > span{
+    font-size: 13px;
+    margin-top: 7px;    
+}
+.wrapper{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.titulo{
+    margin-top: 25px;
+    margin-left: 3.5%;
+}
+
+.nav-tabs .nav-link.active{
+    border-bottom: 3px solid #FFA01C;
+    background: transparent;
+    margin-bottom: 3px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+}

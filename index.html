@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Convertidor</title>
+
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap-grid.css" rel="stylesheet">
+  
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin.css" rel="stylesheet">
+  <link href="css/customwiki.css" rel="stylesheet">
+
+  
+
+
+</head>
+
+<body id="page-top" class="paratodo tamaño10px">
+
+    <h6 class="titulo">Mapeo de xml</h6>
+
+  <div id="wrapper">
+    <div id="content-wrapper" style="margin-left: 2%;">
+      <div class="center-block col-md-12">
+        <div class="row">
+          <div class="col-sm-8"></div>
+          <div class="col-sm-4"> 
+            <input type="file" accept=".xml" name="busqueda" id="busqueda" title="Holamundo">
+          </div>
+        </div>
+        
+        <div>
+          <p>Nombre del systemevent</p>
+          <div>
+            <textarea class="form-control noresize tamaño10px" id="entrada" rows="2" readonly></textarea>
+          </div>
+          
+          <ul class="nav nav-tabs" id="pestañas" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">General</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active bordes" id="campohome" role="tabpanel" aria-labelledby="home-tab"></div>
+          </div>
+
+          <div class="col-sm-11">
+            <p style="margin-top: 20px;"></p>
+          </div>
+          <p id="campohome" class="prueba">La salida de los campos es la sigiente:</p>
+          <textarea class="form-control noresize tamaño10px pruebax" id="salida" rows="10" readonly></textarea>
+          <div id="cuadros"></div>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Custom scripts for all pages-->
+  <script src="vendor/jquery/jquery.js"></script>
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.js"></script>
+ 
+  <!-- Demo scripts for this page-->
+  <script src="js/Ajustes.js"></script>
+</body>
+
+</html>
